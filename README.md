@@ -34,3 +34,21 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+
+
+
+
+
+
+
+Primero crear
+navbar Alfredo
+Footer Mateo
+Home Marc
+Paginas a crear
+-Lista 151 pokemon con descripcion y foto (Marc)
+-Lista de los distintos Lideres de Gimnasio // Altos Mandos, Equipos pokemon de cada lider. (Alfredo) 
+-Que rutas hay en la primera generacion y que pokemon hay en cada ruta. (Mateo)
