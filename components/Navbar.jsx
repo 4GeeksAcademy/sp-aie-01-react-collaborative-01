@@ -1,0 +1,17 @@
+import React from 'react';
+import Link from 'next/link';
+
+export default function Navbar() {
+    return (
+        <nav className="bg-gray-800 text-white p-4">
+            <div className="navbar-container">
+                <Link href="/" className="navbar-logo">PokeApi</Link>
+                <ul className="navbar-menu">
+                    <li><Link href="/wikidex">Wikidex</Link></li>
+                    <li><Link href="/pokerastreo">Pokerastreo</Link></li>
+                    <li><Link href="/infogym">Infogym</Link></li>
+                </ul>
+            </div>
+        </nav>
+    );
+}   
