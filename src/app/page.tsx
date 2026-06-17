@@ -15,6 +15,9 @@ export default function Home() {
         <Link className="text-blue-600 hover:underline" href="/infogym">
           Infogym
         </Link>
+        <Link className="text-blue-600 hover:underline" href="/contacta-con-nosotros">
+          Contacto
+        </Link>
       </div>
     </div>
   );
