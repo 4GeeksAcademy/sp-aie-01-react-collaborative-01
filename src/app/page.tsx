@@ -1,21 +1,24 @@
-import Link from "next/link";
-
 export default function Home() {
+  const imageUrl =
+    "https://static.posters.cz/image/1300/posters/pokemon-eevee-evolution-i34218.jpg";
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <h1 className="text-4xl font-bold text-gray-800 dark:text-white">PokeApi</h1>
-      <p className="mt-3 text-gray-600 dark:text-gray-300">Selecciona un modulo:</p>
-      <div className="mt-6 flex flex-col gap-3 text-lg">
-        <Link className="text-blue-600 hover:underline" href="/wikidex">
-          Wikidex
-        </Link>
-        <Link className="text-blue-600 hover:underline" href="/pokerastreo">
-          Pokerastreo
-        </Link>
-        <Link className="text-blue-600 hover:underline" href="/infogym">
-          Infogym
-        </Link>
+    <main className="min-h-[140vh] w-full bg-black p-4">
+      <img
+        src={imageUrl}
+        alt="Fotografia de Pokémon"
+        className="mx-auto block h-auto w-full max-w-[1400px] object-contain"
+      />
+
+      <div className="absolute inset-0 bg-black/55" />
+
+      <div className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center">
+        <img
+          src="/pngwing.com.png"
+          alt="Logo Pokémon"
+          className="w-[min(80vw,300px)]"
+        />
       </div>
-    </div>
+    </main>
   );
 }
