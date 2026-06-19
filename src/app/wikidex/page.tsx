@@ -32,9 +32,11 @@ export default async function WikidexPage() {
 
 
     return (
-        <div>
-            <h1>Wikidex</h1>
-            <div>
+        <div className="app-shell">
+            <section className="pokemon-section">
+            <h1 className="section-title">Wikidex Kanto</h1>
+            <p className="section-subtitle">Explora los 151 pokemon de primera generacion y arma tu equipo ideal.</p>
+            <div className="pokemon-grid">
             {pokemon.map((poke, index) => (
                 <PokemonCard
                     key={poke.name}
@@ -44,6 +46,7 @@ export default async function WikidexPage() {
                 />
             ))}
             </div>
+            </section>
         </div>
     );
 }
