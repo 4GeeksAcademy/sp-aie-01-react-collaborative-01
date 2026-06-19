@@ -14,6 +14,7 @@ Abrir en el navegador: http://localhost:3000
 ## Mapa de nombres (importante)
 
 - Marca principal (navbar): PokeApi
+	·Link API: https://pokeapi.co/docs/v2
 - Ruta /wikidex: Wikidex
 - Ruta /pokerastreo: Pokerastreo
 - Ruta /infogym: Infogym
@@ -28,11 +29,10 @@ Abrir en el navegador: http://localhost:3000
 ## Asignacion del equipo
 
 - Navbar: Alfredo
-- Footer: Mateo
+- Footer: Marc
 - Home: Marc
-- Wikidex (151 pokemon): Marc
+- Wikidex (151 pokemon): Alfredo
 - Infogym (lideres, altos mandos y equipos): Alfredo
-- Pokerastreo (rutas y pokemon por ruta): Mateo
 
 ## Nota para evitar errores
 
