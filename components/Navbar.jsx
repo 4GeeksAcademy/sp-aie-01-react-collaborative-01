@@ -9,6 +9,7 @@ export default function Navbar() {
                 <ul className="navbar-menu">
                     <li><Link href="/wikidex">Wikidex</Link></li>
                     <li><Link href="/infogym">Infogym</Link></li>
+                    <li><Link href="/contacta-con-nosotros">Contacto</Link></li>
                 </ul>
             </div>
         </nav>
