@@ -1,5 +1,9 @@
+"use client";
+
 import React from 'react';
 import Link from 'next/link';
+import BtnTeam from './BtnTeam';
+import BtnPc from './BtnPc';
 
 export default function Navbar() {
     return (
@@ -11,6 +15,10 @@ export default function Navbar() {
                     <li><Link href="/infogym">Infogym</Link></li>
                     <li><Link href="/contacta-con-nosotros">Contacto</Link></li>
                 </ul>
+                <div className="navbar-actions">
+                    <BtnTeam />
+                    <BtnPc />
+                </div>
             </div>
         </nav>
     );
