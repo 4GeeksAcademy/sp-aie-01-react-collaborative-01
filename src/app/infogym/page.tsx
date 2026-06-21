@@ -1,12 +1,12 @@
 import React from 'react';
 
-export default function PokerastreoPage() {
+export default function InfogymPage() {
 	return (
 		<div className="simple-center app-shell">
 			<section className="pokemon-section simple-card">
-				<h1 className="section-title">Pokerastreo</h1>
+				<h1 className="section-title">Infogym</h1>
 				<p className="section-subtitle">
-					Rutas de Kanto y pokemon disponibles en cada ruta de primera generacion.
+					Informacion de lideres de gimnasio, altos mandos y sus equipos pokemon.
 				</p>
 			</section>
 		</div>

@@ -7,12 +7,14 @@ import BtnPc from './BtnPc';
 
 export default function Navbar() {
     return (
-        <nav className="bg-gray-800 text-white p-4">
+        <nav className="bg-gray-800 text-white p-4 shadow-md">
             <div className="navbar-container">
-                <Link href="/" className="navbar-logo">PokeApi</Link>
+                <Link href="/" className="navbar-logo">PokeAPI</Link>
                 <ul className="navbar-menu">
                     <li><Link href="/wikidex">Wikidex</Link></li>
                     <li><Link href="/infolocations">Infolocations</Link></li>
+                    <li><Link href="/pokerastreo">Pokerastreo</Link></li>
+                    <li><Link href="/infogym">Infogym</Link></li>
                     <li><Link href="/contacta-con-nosotros">Contacto</Link></li>
                 </ul>
                 <div className="navbar-actions">

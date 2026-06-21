@@ -22,12 +22,13 @@ function PokemonCard({ pokemon, index, spriteId }: PokemonCardProps) {
 
     return (
         <div className="pokemon-card">
-            <Link href={`/wikidex/${pokemon.name}`}>
-                <p>#{index}</p>
-                <p>{pokemon.name}</p>
+            <Link href={`/wikidex/${pokemon.name}`} className="pokemon-card-link">
+                <p className="pokemon-number">#{index}</p>
+                <p className="pokemon-name">{pokemon.name}</p>
                 <img
                     src={spriteUrl}
                     alt={pokemon.name}
+                    className="pokemon-sprite"
                 />
             </Link>
 
