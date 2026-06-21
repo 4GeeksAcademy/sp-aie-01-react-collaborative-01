@@ -14,7 +14,6 @@ export default function Navbar() {
                     <li><Link href="/wikidex">Wikidex</Link></li>
                     <li><Link href="/infolocations">Infolocations</Link></li>
                     <li><Link href="/pokerastreo">Pokerastreo</Link></li>
-                    <li><Link href="/infogym">Infogym</Link></li>
                     <li><Link href="/contacta-con-nosotros">Contacto</Link></li>
                 </ul>
                 <div className="navbar-actions">
