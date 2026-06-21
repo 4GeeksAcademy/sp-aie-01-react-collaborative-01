@@ -17,14 +17,14 @@ Abrir en el navegador: http://localhost:3000
 	·Link API: https://pokeapi.co/docs/v2
 - Ruta /wikidex: Wikidex
 - Ruta /pokerastreo: Pokerastreo
-- Ruta /infogym: Infogym
+- Ruta /infolocations: Infolocations
 
 ## Estructura de rutas
 
 - src/app/page.tsx -> Home
 - src/app/wikidex/page.tsx -> Wikidex
 - src/app/pokerastreo/page.tsx -> Pokerastreo
-- src/app/infogym/page.tsx -> Infogym
+- src/app/infolocations/page.tsx -> Infolocations
 
 ## Asignacion del equipo
 
@@ -32,7 +32,7 @@ Abrir en el navegador: http://localhost:3000
 - Footer: Marc
 - Home: Marc
 - Wikidex (151 pokemon): Alfredo
-- Infogym (lideres, altos mandos y equipos): Alfredo
+- Infolocations (lideres, altos mandos y equipos): Alfredo
 
 ## Nota para evitar errores
 
