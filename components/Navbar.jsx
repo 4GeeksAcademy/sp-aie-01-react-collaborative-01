@@ -12,7 +12,7 @@ export default function Navbar() {
                 <Link href="/" className="navbar-logo">PokeApi</Link>
                 <ul className="navbar-menu">
                     <li><Link href="/wikidex">Wikidex</Link></li>
-                    <li><Link href="/infogym">Infogym</Link></li>
+                    <li><Link href="/infolocations">Infolocations</Link></li>
                     <li><Link href="/contacta-con-nosotros">Contacto</Link></li>
                 </ul>
                 <div className="navbar-actions">
